@@ -1,9 +1,9 @@
 import React from 'react';
 
-import ExampleUseImperativeHandler from './components/ExampleUseImperativeHandler';
+import Home from './screens/Home';
 
 const App: React.FC = () => {
-  return <ExampleUseImperativeHandler />;
+  return <Home />;
 };
 
 export default App;
