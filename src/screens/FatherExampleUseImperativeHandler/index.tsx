@@ -5,7 +5,7 @@ import ExampleUseImperativeHandler, {
 } from '../../components/ExampleUseImperativeHandler';
 import * as S from './styles';
 
-const Home: React.FC = () => {
+const FatherExampleUseImperativeHandler: React.FC = () => {
   const modalRef = useRef<ModalHandles>(null);
 
   const handleOpenModal = useCallback(() => {
@@ -16,7 +16,7 @@ const Home: React.FC = () => {
 
   return (
     <S.Container>
-      <S.Title>Home</S.Title>
+      <S.Title>Example Use Imperative Handler</S.Title>
 
       <S.Button onPress={handleOpenModal}>
         <S.ButtonText>Mostrar</S.ButtonText>
@@ -27,4 +27,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default FatherExampleUseImperativeHandler;

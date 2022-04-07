@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Home from './screens/Home';
+import FatherExampleUseImperativeHandler from './screens/FatherExampleUseImperativeHandler';
 
 const App: React.FC = () => {
-  return <Home />;
+  return <FatherExampleUseImperativeHandler />;
 };
 
 export default App;
